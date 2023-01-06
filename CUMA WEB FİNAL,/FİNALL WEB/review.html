@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Kullanıcı Yorumları</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!--! header section start  -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/1211.webp" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="index.html">Anasayfa</a>
+        <a href="about.html">Hakkımızda</a>
+        <a href="menu.html">Ayakkabılar</a>
+       
+        <a href="review.html" class="active">Yorumlar</a>
+        <a href="contact.html">İletişim</a>
+      
+      </nav>
+
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="Araştır"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/urun1.webp" alt="menu" />
+          <div class="content">
+            <h3>NikeCourt</h3>
+            <div class="price">₺1054.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/urun2.webp" alt="menu" />
+          <div class="content">
+            <h3>NikeCourt</h3>
+            <div class="price">₺929.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/urun3.webp" alt="menu" />
+          <div class="content">
+            <h3>NikeCourt</h3>
+            <div class="price">₺439.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/urun4.webp" alt="menu" />
+          <div class="content">
+            <h3>NikeCourt</h3>
+            <div class="price">₺749.99/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">Gözden Geçir</a>
+      </div>
+    </header>
+    <!--! header section end  -->
+
+    <!--! review section start  -->
+    <section class="review" id="review">
+      <h1 class="heading">Kullanıcı <span>Yorumları</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Ürünler gayet kaliteli ve güvenilir. Amatör olarak tenis oynuyorum bütün 
+           ihtiyaçlarımı burdan karşılıyorum .Özellikle fiyat konusunda gayet uygun
+          </p>
+          <img src="images/avatar-1.png" alt="avatar" class="user" />
+          <h3>Elif Laleli</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Ürünler gayet kaliteli ve güvenilir. Hobi olarak tenis oynuyorum bütün 
+           ihtiyaçlarımı burdan karşılıyorum . Fiyat konusunda gayet uygun . Bütün ürünler lisanslı tavsiye ederim.
+          </p>
+          <img src="images/avatar-2.png" alt="avatar" class="user" />
+          <h3>Orhan Okur</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Ürünler gayet kaliteli ve güvenilir. Profesyonal olarak tenis oynuyorum bütün 
+           ihtiyaçlarımı burdan karşılıyorum .Özellikle fiyat konusunda gayet uygun.
+          </p>
+          <img src="images/avatar-3.png" alt="avatar" class="user" />
+          <h3>Betül Koşar</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! review section end  -->
+
+    <!--! footer section start  -->
+    <section class="footer">
+      <div class="Search">
+        <input type="text" class="search-input" placeholder="Arama" />
+        <button class="btn btn-primary">Arama</button>
+      </div>
+      <div class="share">
+        <a href="https://www.facebook.com" class="fab fa-facebook"></a>
+        <a href="https://www.twitter.com" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com" class="fab fa-instagram"></a>
+       
+      
+      </div>
+
+      <div class="links">
+        <a href="#">Anasayfa</a>
+        <a href="#">Hakkımızda</a>
+        <a href="#">Ayakkabılar</a>
+        
+        <a href="#">İletişim</a>
+        
+        
+      </div>
+
+      <div class="credit">
+        Yaratan <span>Vahit Canbirdi</span> | tüm hakları saklıdır
+      </div>
+    </section>
+    <!--! footer section end  -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
